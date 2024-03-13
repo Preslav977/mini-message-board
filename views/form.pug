@@ -1,0 +1,15 @@
+//- extends layout
+
+block content
+  h1= title
+
+form(action="/new", method="post") 
+label(for="author-name") Author Name: 
+input#author-name(type="text", name="")
+button(type="submit") Send
+label(for="message-text") Message Text: 
+input#message-text(type="text", name="")
+button(type="submit") Send
+
+
+
