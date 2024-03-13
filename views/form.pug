@@ -3,11 +3,11 @@
 block content
   h1= title
 
-form(action="/new", method="POST") 
+form(action="/new", method="post") 
   label(for="messageUser") Author Name: 
-  input#messageUser(type="text", name="")
+  input#messageUser(type="text", name="messageUser")
   label(for="messageText") Message Text: 
-  input#messageText(type="text", name="")
+  input#messageText(type="text", name="messageText")
   button(type="submit") Send
 
 
